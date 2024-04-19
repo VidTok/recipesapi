@@ -1,0 +1,461 @@
+body {
+    background-color: #422a11;
+    background-image: url(https://images.pexels.com/photos/5471930/pexels-photo-5471930.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    min-height: 100vh;
+    font-family: 'Montserrat', sans-serif;
+    margin:0;
+}
+
+.headingBox {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 0;
+    background-color: rgba(233, 232, 232, 0.7);
+}
+
+.heading {
+    font-size: 60px;
+    color: #20262E;
+    text-align: center;
+    text-transform: uppercase;
+    margin-bottom: 0;
+}
+
+.smallHeading {
+    font-size: 17px;
+    color: #20262E;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.inputBox {
+    display: flex;
+    justify-content: center;
+    margin-top: 10%;
+    height: 50px;
+}
+
+.headingINP {
+    font-family: 'Montserrat', sans-serif;
+    color: #20262E;
+    font-size: 20px;
+    align-self: center;
+    font-weight: 800;
+    text-align: right;
+    text-transform: uppercase;
+}
+
+#input {
+    background-color: rgba(233, 232, 232, 0.6);
+    border: 2px solid #fff;
+    padding: 10px 20px;
+    font-size: 20px;
+    width: 300px;
+    font-style: italic;
+    margin-left: 30px;
+    border-radius: 0;
+}
+
+#input:focus {
+    background-color: white;
+}
+
+.submitBTN {
+    border: 2px solid #fff;
+    background-color: #fff;;
+    font-size: 20px;
+    border-radius: 0;
+}
+
+.btnTryBox {
+    display: flex;
+    justify-content: center;
+}
+
+.btnTry {
+    display: none;
+    border-radius: 3px;
+    padding: 15px;
+    margin: 60px 20px 50px;
+    font-size: 20px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    text-transform: uppercase;
+    background-color: rgba(233, 232, 232, 0.7);
+    width: 250px;
+    color: #20262E;
+}
+
+.btnTry:hover {
+    font-size: 22px;
+    background-color: rgba(233, 232, 232, 0.8);
+}
+
+
+.mealsBox {
+    position: relative;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    height: fit-content;
+    white-space: nowrap;
+    padding: 10px;
+}
+  
+.block {
+    display: inline-block;
+    height: 100%;
+    width:300px;
+    background-color: rgba(233, 232, 232, 0.8);
+    margin: 10px;
+    padding: 20px;
+    border-radius: 2px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+.mealBoxDis {
+    display: flex;
+    flex-direction: column;
+}
+
+.mealNameDis {
+    white-space: initial;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-size: 20px;
+    margin-bottom: 0;
+}
+
+.mealCuisineDis {
+    white-space: initial;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-style: italic;
+    margin-top: 0;
+}
+
+.mealIngredientsBoxDis {
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+}
+
+.mealIngredienteDis {
+    font-size: 15px;
+    margin: 0;
+    white-space: initial;
+}
+
+.mealRecipeBox {
+    white-space: initial;
+}
+
+.mealRecipeDis {
+    font-size: 15px;
+}
+
+.mealLinksBox {
+    display: flex;
+    justify-content: space-between;
+} 
+
+.mealLinkSourceDis, .mealLinkYouTubeDis {
+    font-size: small;
+    font-weight: 700;
+}
+
+.mealLinkSourceDis:hover, .mealLinkYouTubeDis:hover {
+    font-weight: 900;
+}
+
+
+
+.mealsBoxMob {
+    display: none;
+    position: relative;
+    overflow-x: auto;
+    overflow-y: hidden;
+    height: fit-content;
+    white-space: nowrap;
+    padding: 10px;
+}
+
+@media all and (max-width: 1300px) {
+    
+    ::-webkit-scrollbar {
+        width: 5px;
+        height: 7px;
+        background-color: #e9e8e8;;
+    }
+
+    ::-webkit-scrollbar-thumb {
+        background-color: #9b9a9a;
+        border-radius: 3px;
+    }
+
+    ::-webkit-scrollbar-thumb:hover {
+        background-color: #838383;
+    }
+
+    html, body {
+        scrollbar-color: #e9e8e8 #9b9a9a;
+        scrollbar-width: thin;
+   }
+
+
+
+    .mealsBox {
+        display: none;
+    }
+
+    .mealsBoxMob {
+        display: block;
+    }
+
+    .heading {
+        font-size: 45px;
+    }
+
+    #input {
+        background-color: white;
+        border: 2px solid #A084DC;
+    }
+    
+    #input:focus {
+        background-color: white;
+    }
+
+    .submitBTN {
+        border: 2px solid #A084DC;
+        background-color: white;;
+    }
+
+    .btnTry {
+        margin: 40px 20px 30px;
+        border: none;
+        border-radius: 0;
+    }
+
+}
+
+@media all and (max-width: 950px) {
+
+    .inputBox {
+        margin-top: 25%;
+    }
+    
+}
+
+@media all and (max-width: 800px) {
+
+    .headingINP {
+        font-size: 25px;
+        font-weight: 700;
+    }
+
+}
+
+@media all and (max-width: 600px) {
+
+    .heading {
+        font-size: 35px;
+    }
+
+    .smallHeading {
+        font-size: 13px;
+    }
+    
+    .headingINP {
+        font-size: 20px;
+        font-weight: 700;
+    }
+    
+    #input {
+        padding: 10px 15px;
+        font-size: 15px;
+        width: 200px;
+        margin-left: 15px;
+    }
+
+    .submitBTN {
+        font-size: 15px;
+    }
+    
+    .btnTry {
+        padding: 12px;
+        font-size: 17px;
+        font-weight: 700;
+        width: 220px;
+    }
+    
+    .btnTry:hover {
+        font-size: 18px;
+    }
+
+    .block {
+        width:250px;
+    }
+    
+    .mealNameDis {
+        font-size: 17px;
+    }
+
+    .mealCuisineDis {
+        font-size: 14px;
+    }
+    
+    .mealIngredienteDis {
+        font-size: 12px;
+    }
+    
+    .mealRecipeDis {
+        font-size: 13px;
+    }
+
+}
+
+
+@media all and (max-width: 450px) {
+
+    .heading {
+        font-size: 30px;
+        color: #20262E;
+    }
+
+    .smallHeading {
+        font-size: 10px;
+    }
+    
+    .headingINP {
+        font-size: 17px;
+    }
+    
+    #input {
+        padding: 10px 15px;
+        font-size: 15px;
+        width: 150px;
+    }
+    
+    .btnTry {
+        padding: 12px;
+        font-size: 15px;
+        font-weight: 700;
+        width: 200px;
+    }
+    
+    .btnTry:hover {
+        font-size: 16px;
+    }
+
+}
+
+@media all and (max-width: 380px) {
+
+    .heading {
+        font-size: 25px;
+    }
+
+    .smallHeading {
+        font-size: 7px;
+    }
+    
+    .headingINP {
+        font-size: 15px;
+    }
+    
+    #input {
+        padding: 5px 15px;
+        font-size: 13px;
+        width: 130px;
+    }
+    
+    .submitBTN {
+        font-size: 13px;
+    }
+
+    .btnTry {
+        padding: 12px;
+        font-size: 13px;
+        font-weight: 600;
+        width: 170px;
+        margin: 40px 20px 10px;
+    }
+    
+    .btnTry:hover {
+        font-size: 14px;
+    }
+
+    .block {
+        width:220px;
+    }
+
+}
+
+@media all and (max-width: 300px) {
+
+    .heading {
+        font-size: 18px;
+    }
+    
+    .headingINP {
+        font-size: 12px;
+    }
+    
+    #input {
+        padding: 1px 15px;
+        font-size: 11px;
+        width: 90px;
+    }
+
+    .submitBTN {
+        font-size: 10px;
+    }
+    
+    .btnTry {
+        padding: 12px;
+        font-size: 11px;
+        font-weight: 700;
+        width: 150px;
+        margin: 30px 10px 8px;
+    }
+    
+    .btnTry:hover {
+        font-size: 13px;
+    }
+
+    .block {
+        width:190px;
+        padding: 10px;
+        margin: 5px;
+    }
+
+    .mealNameDis {
+        font-size: 15px;
+    }
+
+    .mealCuisineDis {
+        font-size: 11px;
+    }
+    
+    .mealIngredienteDis {
+        font-size: 10px;
+    }
+    
+    .mealRecipeDis {
+        font-size: 12px;
+    }
+
+    .mealLinkSourceDis, .mealLinkYouTubeDis {
+        font-size: x-small;
+    }
+
+}
