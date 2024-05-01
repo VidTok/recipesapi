@@ -1,22 +1,21 @@
 <div align="center">
   <a href="https://github.com/othneildrew/Best-README-Template">
-    <img src="https://images.unsplash.com/photo-1711994872181-1e112e5e18e0?q=80&w=2730&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Logo" width="80" height="80">
+    <img src="https://images.unsplash.com/photo-1509957879660-dd8846a0b43d?q=80&w=2672&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Logo" width="120" height="80">
   </a>
 
-  <h3 align="center">The web app, like a recipe book, searchable by ingredients</h3>
+  <h3 align="center">Find your recipe</h3>
 
   <p align="center">
-    Small game against your computer to guess the number.
+    The web app, like a recipe book, searchable by ingredients.
   </p>
 </div>
 
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-This is a simple game against the computer where you are asked to guess a number between 1 and 20. Than you will get the result of the test of your intuition.
+This web app was created on the principle of a recipe book, where you can find what you need by the key ingredient.
 
-This game was created during the study of the JavaScript language.
-
+It was implemented using the public API.
 
 ### Built With
 
@@ -30,5 +29,5 @@ This game was created during the study of the JavaScript language.
 
 Vitalina - (https://vitalina-tsyganok-cv-portfolio.glitch.me)
 
-Project Link: (https://play-with-computer-game.netlify.app/](https://recepy-finder.netlify.app/)
+Project Link: (https://recipe-book-finder.netlify.app/)
 
