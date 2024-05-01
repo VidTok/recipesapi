@@ -3,7 +3,7 @@
     <img src="https://images.unsplash.com/photo-1711994872181-1e112e5e18e0?q=80&w=2730&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Logo" width="80" height="80">
   </a>
 
-  <h3 align="center">Guess game against the computer</h3>
+  <h3 align="center">The web app, like a recipe book, searchable by ingredients</h3>
 
   <p align="center">
     Small game against your computer to guess the number.
@@ -22,7 +22,7 @@ This game was created during the study of the JavaScript language.
 
 * JavaScript
 * GreenSock
-* Particles
+* API
 
 
 <!-- CONTACT -->
